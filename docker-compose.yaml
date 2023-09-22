@@ -1,0 +1,9 @@
+version: '3.6'
+
+services:
+  ms-rabbitmq:
+    container_name: ms-rabbitmq
+    image: rabbitmq:3-management
+    ports:
+      - '15672:15672'
+      - '5672:5672'
